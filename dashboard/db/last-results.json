@@ -1,0 +1,1009 @@
+{
+  "config": {
+    "configFile": "C:\\Shopify_webAutomation\\playwright.config.js",
+    "rootDir": "C:/Shopify_webAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-iphone-15",
+        "name": "mobile-iphone-15",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-iphone-12",
+        "name": "mobile-iphone-12",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-pixel-7",
+        "name": "mobile-pixel-7",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-galaxy-s5",
+        "name": "mobile-galaxy-s5",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-moto-g4",
+        "name": "mobile-moto-g4",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-ipad-pro",
+        "name": "tablet-ipad-pro",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-ipad-mini",
+        "name": "tablet-ipad-mini",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Shopify_webAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-nexus-10",
+        "name": "tablet-nexus-10",
+        "testDir": "C:/Shopify_webAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "dashboard/db/last-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.60.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "clearance-filter-sort.spec.js",
+      "file": "clearance-filter-sort.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Clearance PLP — Filter and Sort Validation",
+          "file": "clearance-filter-sort.spec.js",
+          "line": 54,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-01 | Home page loads successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 32480,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Step 1 — Navigating to ShopLC staging store home page…\n"
+                        },
+                        {
+                          "text": "[HomePage] Home page verified as loaded.\n"
+                        },
+                        {
+                          "text": "[TC-01] Page title: \"Shop LC | Online Shopping Channel: Jewelry, Gemstone, Fashion, Beauty\"\n"
+                        },
+                        {
+                          "text": "TC-01 PASSED — Home page loaded successfully.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-04T06:33:49.210Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "99492ae7020bd00ae119-52706e64eea2e6026fda",
+              "file": "clearance-filter-sort.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "TC-02 | Navigate to Clearance PLP via mega-menu",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 124876,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:109:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:109:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Home page verified as loaded.\n"
+                        },
+                        {
+                          "text": "Step 3 — Clicking Clearance in the mega-menu…\n"
+                        },
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        },
+                        {
+                          "text": "Step 4 — Verifying Clearance PLP has loaded…\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-04T06:34:26.983Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 264394,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:109:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:109:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Home page verified as loaded.\n"
+                        },
+                        {
+                          "text": "Step 3 — Clicking Clearance in the mega-menu…\n"
+                        },
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        },
+                        {
+                          "text": "Step 4 — Verifying Clearance PLP has loaded…\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-04T06:36:44.955Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-b3b44-Clearance-PLP-via-mega-menu-chromium-retry1\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "99492ae7020bd00ae119-a555b7293a61a46b3cda",
+              "file": "clearance-filter-sort.spec.js",
+              "line": 96,
+              "column": 3
+            },
+            {
+              "title": "TC-03 | Price filter — min $10.00 shows only eligible products",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 108707,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:135:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:135:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-04T06:41:54.959Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    },
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 116068,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:135:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:135:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-04T06:43:51.364Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-cdbc6-hows-only-eligible-products-chromium-retry1\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "99492ae7020bd00ae119-10c72b079202bdda3436",
+              "file": "clearance-filter-sort.spec.js",
+              "line": 129,
+              "column": 3
+            },
+            {
+              "title": "TC-04 | Sort — \"Price, low to high\" produces ascending price order",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 102753,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:183:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:183:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-04T06:45:56.889Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 137970,
+                      "error": {
+                        "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:183:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "TimeoutError: page.waitForLoadState: Timeout 45000ms exceeded.\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:183:19\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-07-04T06:47:42.395Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9c498-duces-ascending-price-order-chromium-retry1\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "99492ae7020bd00ae119-5d4c81ebfc72db63674b",
+              "file": "clearance-filter-sort.spec.js",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "TC-05 | E2E — Navigate → Filter → Sort validation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 71955,
+                      "error": {
+                        "message": "Error: page.waitForLoadState: Target page, context or browser has been closed",
+                        "stack": "Error: page.waitForLoadState: Target page, context or browser has been closed\n    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\n    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:237:19",
+                        "location": {
+                          "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                          "column": 21,
+                          "line": 157
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                            "column": 21,
+                            "line": 157
+                          },
+                          "message": "Error: page.waitForLoadState: Target page, context or browser has been closed\n\n\u001b[90m   at \u001b[39m..\\pages\\PLPPage.js:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m   \u001b[36masync\u001b[39m verifyLoaded() {\n \u001b[90m 156 |\u001b[39m     \u001b[90m// Wait for network to settle after navigation\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m45\u001b[39m_000 })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m     \u001b[90m// Log actual URL — useful for debugging collection slug mismatches\u001b[39m\n \u001b[90m 160 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`[PLPPage] PLP loaded — URL: ${this.page.url()}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at PLPPage.verifyLoaded (C:\\Shopify_webAutomation\\pages\\PLPPage.js:157:21)\u001b[22m\n\u001b[2m    at C:\\Shopify_webAutomation\\tests\\clearance-filter-sort.spec.js:237:19\u001b[22m"
+                        },
+                        {
+                          "message": "Error: browserContext.close: Target page, context or browser has been closed"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "═══════════════════════════════════════════════════════════\n"
+                        },
+                        {
+                          "text": " TC-05: Full end-to-end scenario\n"
+                        },
+                        {
+                          "text": "═══════════════════════════════════════════════════════════\n"
+                        },
+                        {
+                          "text": "\n── Phase 1: Navigation ──\n"
+                        },
+                        {
+                          "text": "[HomePage] Home page verified as loaded.\n"
+                        },
+                        {
+                          "text": "  ✓ Home page loaded\n"
+                        },
+                        {
+                          "text": "[HomePage] Clearance link found directly — clicking.\n"
+                        },
+                        {
+                          "text": "[HomePage] Navigated to PLP — URL: https://shoplcus-stagingstore.myshopify.com/collections/clearance\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-04T06:50:12.250Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Shopify_webAutomation\\test-results\\clearance-filter-sort-Clea-9809d--→-Filter-→-Sort-validation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Shopify_webAutomation\\pages\\PLPPage.js",
+                        "column": 21,
+                        "line": 157
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "99492ae7020bd00ae119-59663c27a4d5c7d935cb",
+              "file": "clearance-filter-sort.spec.js",
+              "line": 221,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "guest-order.spec.js",
+      "file": "guest-order.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Guest Order Creation — ShopLC Staging",
+          "file": "guest-order.spec.js",
+          "line": 123,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-GO-01 | Guest checkout — place order as guest user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "2e9b91f9a82471917f7e-0da6a491c8f040981593",
+              "file": "guest-order.spec.js",
+              "line": 125,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login-and-order.spec.js",
+      "file": "login-and-order.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ShopLC Staging — Login via OTP + Place Order",
+          "file": "login-and-order.spec.js",
+          "line": 690,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-LOGIN-01 | Email OTP login + add to cart + checkout + confirm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "190c4fc16b7eadb9b198-c995ec7eca416b10379b",
+              "file": "login-and-order.spec.js",
+              "line": 692,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Registration.spec.js",
+      "file": "Registration.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ShopLC Staging — New Customer Registration",
+          "file": "Registration.spec.js",
+          "line": 474,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-REG-01 | OTP-based new customer registration",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d14decb1dc56a08f3347-4fb0b703c8f820344657",
+              "file": "Registration.spec.js",
+              "line": 476,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-04T06:33:46.891Z",
+    "duration": 1059545.197,
+    "expected": 1,
+    "skipped": 5,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}
